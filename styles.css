@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4680b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.carta-cerrada {
+    font-size: 24px;
+    background-color: #a34cadda;
+    padding: 20px;
+    border: 2px solid #f6cafe;
+    border-radius: 10px;
+}
+
+.carta-abierta {
+    font-size: 20px;
+    background-color: #e0b8de;
+    padding: 30px;
+    border: 2px solid #2dbabc;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: none;
+}
+
+.botones {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d0e7f9;
+}
+
+#mensaje {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #4caf50;
+}
